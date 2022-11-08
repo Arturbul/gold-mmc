@@ -1,10 +1,27 @@
+@use "./colors" as *;
+@use "./animations" as *;
+
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
-	margin: 0;
 	padding: 0;
+	margin: 0;
 }
+
+html {
+	font-size: 62.5%; //10px
+	scroll-behavior: smooth;
+}
+
 body {
-	background-color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.6rem;
+	// font-family: "Cinzel", serif;
+	color: $white;
+	background-color: $dark;
 }
+
+@use "./small" as *;
+@use "./medium" as *;
+@use "./large" as *;

@@ -6,8 +6,9 @@ const footerYear = document.querySelector(".footer__year");
 const handleNAv = () => {
 	navBtn.classList.toggle("is-active");
 	navMobile.classList.toggle("nav-mobile--active");
-	document.body.classList.toggle("body--hold");
-	footer.classList.toggle("footer--inactive");
+	//po wybraniu freezuje
+	// document.body.classList.toggle("body--hold");
+	// footer.classList.toggle("footer--inactive");
 };
 
 navBtn.addEventListener("click", handleNAv);

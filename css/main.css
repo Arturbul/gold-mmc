@@ -212,6 +212,10 @@ h1.company-name {
   color: #d6c78e;
 }
 
+.top-btn {
+  display: none;
+}
+
 .cards {
   background-color: #191919;
   overflow: hidden;
@@ -676,6 +680,24 @@ body.body--hold {
   .hamburger {
     display: none;
   }
+  .top-btn {
+    position: fixed;
+    transform: scale(3);
+    right: 3em;
+    bottom: 5em;
+    background: none;
+    border: none;
+    opacity: 0.2;
+    z-index: 1000;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  .top-btn:hover {
+    opacity: 0.8;
+  }
+  .top-btn--active {
+    display: block;
+  }
 }
 @media (min-width: 1200px) {
   .header__text p {
@@ -683,5 +705,15 @@ body.body--hold {
   }
   .gallery {
     grid-template-columns: repeat(8, 1fr);
+  }
+  .top-btn {
+    transform: scale(4);
+    right: 4em;
+  }
+}
+@media (min-width: 1600px) {
+  .top-btn {
+    transform: scale(5);
+    right: 7em;
   }
 }/*# sourceMappingURL=main.css.map */

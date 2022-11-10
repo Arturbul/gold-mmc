@@ -88,6 +88,24 @@
 	.hamburger {
 		display: none;
 	}
+	.top-btn {
+		position: fixed;
+		transform: scale(3);
+		right: 3em;
+		bottom: 5em;
+		background: none;
+		border: none;
+		opacity: 0.2;
+		z-index: 1000;
+		cursor: pointer;
+		transition: opacity 0.3s;
+		&:hover {
+			opacity: 0.8;
+		}
+		&--active {
+			display: block;
+		}
+	}
 }
 
 @media (min-width: 1200px) {
@@ -100,5 +118,15 @@
 	}
 	.gallery {
 		grid-template-columns: repeat(8, 1fr);
+	}
+	.top-btn {
+		transform: scale(4);
+		right: 4em;
+	}
+}
+@media (min-width: 1600px) {
+	.top-btn {
+		transform: scale(5);
+		right: 7em;
 	}
 }

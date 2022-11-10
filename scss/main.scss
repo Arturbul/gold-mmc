@@ -123,6 +123,9 @@ h1.company-name {
 		background-color: $white;
 		z-index: 500;
 	}
+	&--sticky {
+		position: fixed;
+	}
 }
 
 .nav {

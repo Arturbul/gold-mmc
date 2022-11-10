@@ -172,6 +172,9 @@ h1.company-name {
   background-color: #fff;
   z-index: 500;
 }
+.hamburger--sticky {
+  position: fixed;
+}
 
 .nav-mobile {
   position: absolute;

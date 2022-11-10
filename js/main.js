@@ -14,6 +14,11 @@ const handleNAv = () => {
 			link.addEventListener("click", handleNAv);
 		}
 	});
+	if (navBtn.classList.contains("is-active")) {
+		// document.body.scrollTop = 0; // For Safari
+		// document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		window.location = "#header";
+	}
 };
 
 navBtn.addEventListener("click", handleNAv);

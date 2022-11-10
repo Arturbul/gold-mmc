@@ -4,6 +4,7 @@ Projekt pochodzący z kursu _MMC School_ **Kurs Tworzenia Stron WWW cz. 3.**
 _Status projektu_: `zakonczony`
 
 **Dodatki**
+
 _MOBILE_:
 
 - znikająca stopka przy włączeniu nawigacji
@@ -16,7 +17,7 @@ _DESKTOP_:
 _Ogólne_:
 poprawnione zachowanie nawigacji mobilnej przy zwiekszeniu szerokosci okna
 
-- ***
+---
 
 # Źródła:
 

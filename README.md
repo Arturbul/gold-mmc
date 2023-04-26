@@ -1,4 +1,4 @@
-# Diamonds, Gold & Money
+# [Diamonds, Gold & Money](https://arturbul.github.io/gold-mmc/)
 
 Projekt pochodzący z kursu _MMC School_ **Kurs Tworzenia Stron WWW cz. 3.**
 _Status projektu_: `zakonczony`
